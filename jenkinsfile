@@ -1,12 +1,12 @@
 pipeline {
     agent {
-        "dev-node"
+        label 'dev-node'
     }
 
     stages {
         stage('exam') {
             steps {
-                echo "202206070204"
+                echo "202206070219"
             }
         }
     }
