@@ -1,5 +1,7 @@
 pipeline {
-    agent dev-node
+    agent {
+        "dev-node"
+    }
 
     stages {
         stage('exam') {
