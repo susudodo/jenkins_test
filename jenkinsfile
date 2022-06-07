@@ -2,10 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('exam') {
             steps {
-                today=$(date)
-                echo $today
+                echo 202206071251"
             }
         }
     }
